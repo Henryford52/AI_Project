@@ -12,8 +12,8 @@
 }
 .foote-icon-flex{
     display:  flex;
-    gap: 10px;
-    width: 30%;
+    /* gap: 5px; */
+    width: 25%;
 }
 .foote-icon-flex .icon{
     width: 50px;
@@ -23,7 +23,13 @@
  background-color: #69727d;
    margin: 10px auto;
    border-radius: 100%;
+   cursor: pointer;
 
+}
+.foote-icon-flex .icon:hover{
+    transition: 0.3s ease-in-out;
+    background-color: #565b62;
+    transform: translateY(20px);
 }
 .foote-icon-flex .icon svg{
     width: 50%;

@@ -32,9 +32,9 @@
 
 }
 .Section4-flex-content .btn:hover {
-    transition: 0.9s ease-in-out;
+    transition: 0.3s ease-in-out;
     background-color: #6fa0af;
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
 .Section4-flex  img{
     width: 50%;

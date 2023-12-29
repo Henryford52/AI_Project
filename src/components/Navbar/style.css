@@ -22,12 +22,12 @@
     color: white;
     /* transform: scale(1); */
    cursor: pointer;
-   transition: 0.9s ease-in-out;
+   transition: 0.3s ease-in-out;
 }
 .Navbar-btn:hover{
-    transition: 0.9s ease-in-out;
+    transition: 0.3s ease-in-out;
     background-color: #6fa0af;
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
 @media screen  and (max-width:820px){
     .Navbar-logo img{

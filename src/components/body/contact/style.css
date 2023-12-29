@@ -24,13 +24,13 @@
 }
 .Contact input{
     background: none;
-    /* outline: none; */
+    outline: none;
     border-top: none;
     border-bottom:2px solid black;
     border-left: none;
     border-right: none;
     width: 80%;
-    margin: 10px 0;
+    margin: 0px 0px;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 15px;
@@ -38,18 +38,27 @@
 }
 .Contact textarea{
     background: none;
-    /* outline: none; */
+    outline: none;
     border-top: none;
     border-bottom:2px solid black;
     border-left: none;
     border-right: none;
     width: 80%;
-    margin: 10px 0;
+    margin: 0px 0px;
     font-size: 20px;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px 15px;
 
 }
+.input:focus {
+    outline: none;
+    border-top: 2px solid #0000002e;
+    border-bottom: 2px solid black;
+    border-left: 2px solid #0000002e;
+    border-right: 2px solid #0000002e;
+    /* background-color: #fff; */
+    /* box-shadow: 0 0 0 5px #f1a32f26; */
+  }
 .Contact  .btn{
     background-color: #57A3BC;
     font-family: "Inter", Sans-serif;
