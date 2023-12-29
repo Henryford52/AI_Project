@@ -39,7 +39,7 @@ const Section2 = () => {
                             </div>
                             <div className='section2-card-flex-content'>
                                 <h3>Step 2</h3>
-                                <p>Upload Your Test Results: Take a photo or a  screenshot of your medical tests and upload  it.</p>
+                                <p>Instant Interpretation: Our GPT technology translates your results into plain language.</p>
 
                             </div>
 
@@ -55,7 +55,7 @@ const Section2 = () => {
                             </div>
                             <div className='section2-card-flex-content'>
                                 <h3>Step 3</h3>
-                                <p>Upload Your Test Results: Take a photo or a  screenshot of your medical tests and upload  it.</p>
+                                <p>Ask Questions: Get answers and generate questions for your next doctor’s visit.</p>
 
                             </div>
 

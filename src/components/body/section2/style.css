@@ -38,15 +38,15 @@
     display: flex;
     justify-content: center;
     background-color: #082630;
-    width: 90px;
-    height: 65px;
-    border-radius: 100%;
+    width: 52px;
+    height: 50px;
+    border-radius: 50%;
 }
 .section2-card-flex-icon svg{
     /* color: white; */
     color: #fff;
     fill: #fff;
-    width: 30%;
+    width: 50%;
 }
 .section2-card-flex{
     display: flex;
@@ -61,7 +61,7 @@
 
 }
 .section2-card-flex-content p{
-    font-size: 18px;
+    font-size: 15px;
     /* width: 90%; */
     /* display: inline-block; */
 }
