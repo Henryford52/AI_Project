@@ -60,6 +60,9 @@
     overflow: hidden;
     text-align: center;
   }
+  .Section4-flex-content{
+    width: 100%;
+  }
   .Section4-flex-content h2 {
     font-size: 20px;
     color: #082630;
@@ -68,15 +71,16 @@
     width: 100%;
     text-align: center;
   }
-  .Section4-flex-content button {
+  .Section4-flex-content .btn {
     background-color: #57a3bc;
     font-family: "Inter", Sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
+    width: 100%;
     background-color: #57a3bc;
     border-radius: 30px 30px 30px 30px;
     border: none;
-    padding: 15px 30px;
+    padding: 15px 0px;
     color: white;
   }
 }
