@@ -63,4 +63,16 @@
          width: 100%;
          text-align: center;
     }
+    .Section4-flex-content button{
+        background-color: #57A3BC;
+        font-family: "Inter", Sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        background-color: #57A3BC;
+        border-radius: 30px 30px 30px 30px;
+        border: none;
+        padding: 15px 30px;
+        color: white;
+    
+    }
 }
