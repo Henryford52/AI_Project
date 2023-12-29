@@ -39,7 +39,7 @@
         display: block;
         padding: 3rem 3rem;
         margin-top: 200px;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .Section4-flex {
         display: flex;
@@ -51,6 +51,9 @@
     .Section4-flex  img{
         width: 120%;
         
+    }
+    .Section4-flex-content{
+        overflow: hidden;
     }
     .Section4-flex-content h2{
         font-size: 20px;
