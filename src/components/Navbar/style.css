@@ -20,6 +20,14 @@
     border: none;
     padding: 15px 30px;
     color: white;
+    /* transform: scale(1); */
+   cursor: pointer;
+   transition: 0.9s ease-in-out;
+}
+.Navbar-btn:hover{
+    transition: 0.9s ease-in-out;
+    background-color: #6fa0af;
+    transform: translateY(20px);
 }
 @media screen  and (max-width:820px){
     .Navbar-logo img{

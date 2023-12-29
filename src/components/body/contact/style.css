@@ -50,7 +50,7 @@
     padding: 10px 0;
 
 }
-.Contact  button{
+.Contact  .btn{
     background-color: #57A3BC;
     font-family: "Inter", Sans-serif;
     font-size: 18px;
@@ -61,6 +61,13 @@
     border: none;
     padding: 15px 30px;
     color: white;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+}
+.Contact  .btn:hover{
+    transition: 0.9s ease-in-out;
+    background-color: #6fa0af;
+    transform: translateY(-20px);
 }
 @media screen  and (max-width:820px){
     .Contact{

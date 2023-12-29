@@ -25,13 +25,19 @@
  }
 
  .Section3-flex .icon{
-    width: 50px;
-    height: 50px;
-    display: block;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
 background-color: #57A3BC;
    margin: 0 auto;
    border-radius: 100%;
    transform: scale(1);
+ }
+ .Section3-flex .icon svg{
+    width: 40%;
+    color: white;
+    fill: white;
  }
  .Section3-flex .icon:hover{
     transform: scale(1.2);
@@ -55,7 +61,16 @@ background-color: #57A3BC;
     border: none;
     padding: 15px 30px;
     color: white;
+    transition: 0.9s ease-in-out;
+    cursor: pointer;
  }
+  .Section3 .btn:hover{
+
+        transition: 0.9s ease-in-out;
+        background-color: #6fa0af;
+        transform: translateY(-20px);
+   
+  }
  @media screen  and (max-width:820px){
     .Section3{
         display: flex;

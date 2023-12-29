@@ -17,7 +17,7 @@
      margin: 0px 0px 50px 0px;
      width: 90%;
 }
-.Section4-flex-content button{
+.Section4-flex-content .btn{
     background-color: #57A3BC;
     font-family: "Inter", Sans-serif;
     font-size: 18px;
@@ -25,9 +25,16 @@
     background-color: #57A3BC;
     border-radius: 30px 30px 30px 30px;
     border: none;
-    padding: 15px 30px;
+    padding: 15px 50px;
     color: white;
+    cursor: pointer;
+    /* transition: 0.9s ease-in-out; */
 
+}
+.Section4-flex-content .btn:hover {
+    transition: 0.9s ease-in-out;
+    background-color: #6fa0af;
+    transform: translateY(20px);
 }
 .Section4-flex  img{
     width: 50%;

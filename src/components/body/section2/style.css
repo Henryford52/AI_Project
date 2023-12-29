@@ -3,10 +3,10 @@
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 7rem auto;
     margin-top: 200px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .section2-flex{
@@ -39,7 +39,7 @@
     justify-content: center;
     background-color: #082630;
     width: 90px;
-    height: 60px;
+    height: 65px;
     border-radius: 100%;
 }
 .section2-card-flex-icon svg{
