@@ -39,7 +39,7 @@
         display: block;
         padding: 3rem 3rem;
         margin-top: 200px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .Section4-flex {
         display: flex;

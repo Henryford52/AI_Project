@@ -79,7 +79,7 @@
         max-width: 1300px;
         margin: 7rem auto;
         margin-top: 200px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .section2-content h2{
         font-size: 30px;

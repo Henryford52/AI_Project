@@ -68,7 +68,7 @@ background-color: #57A3BC;
         margin: 5rem auto;
         text-align: center;
         margin-top: 300px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .Section3-flex{
         display: flex;
