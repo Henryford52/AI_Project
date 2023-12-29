@@ -1,86 +1,82 @@
-.Section4{
-    background-color: #F2F3F7;
+.Section4 {
+  background-color: #f2f3f7;
+  display: block;
+  padding: 3rem 3rem;
+  margin-top: 200px;
+  overflow-x: hidden;
+}
+.Section4-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Section4-flex-content h2 {
+  font-size: 60px;
+  color: #082630;
+  /* padding: 0px 0px 50px 0px; */
+  margin: 0px 0px 50px 0px;
+  width: 90%;
+}
+.Section4-flex-content .btn {
+  background-color: #57a3bc;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #57a3bc;
+  border-radius: 30px 30px 30px 30px;
+  border: none;
+  padding: 15px 50px;
+  color: white;
+  cursor: pointer;
+  /* transition: 0.9s ease-in-out; */
+}
+.Section4-flex-content .btn:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #6fa0af;
+  transform: translateY(10px);
+}
+.Section4-flex img {
+  width: 50%;
+}
+@media screen and (max-width: 820px) {
+  .Section4 {
+    background-color: #f2f3f7;
     display: block;
     padding: 3rem 3rem;
     margin-top: 200px;
     overflow-x: hidden;
-}
-.Section4-flex {
+  }
+  .Section4-flex {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-}
-.Section4-flex-content h2{
-    font-size: 60px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .Section4-flex img {
+    width: 120%;
+  }
+  .Section4-flex-content {
+    overflow: hidden;
+    text-align: center;
+  }
+  .Section4-flex-content h2 {
+    font-size: 20px;
     color: #082630;
     /* padding: 0px 0px 50px 0px; */
-     margin: 0px 0px 50px 0px;
-     width: 90%;
-}
-.Section4-flex-content .btn{
-    background-color: #57A3BC;
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .Section4-flex-content button {
+    background-color: #57a3bc;
     font-family: "Inter", Sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
-    background-color: #57A3BC;
+    background-color: #57a3bc;
     border-radius: 30px 30px 30px 30px;
     border: none;
-    padding: 15px 50px;
+    padding: 15px 30px;
     color: white;
-    cursor: pointer;
-    /* transition: 0.9s ease-in-out; */
-
-}
-.Section4-flex-content .btn:hover {
-    transition: 0.3s ease-in-out;
-    background-color: #6fa0af;
-    transform: translateY(10px);
-}
-.Section4-flex  img{
-    width: 50%;
-    
-}
-@media screen  and (max-width:820px){
-    .Section4{
-        background-color: #F2F3F7;
-        display: block;
-        padding: 3rem 3rem;
-        margin-top: 200px;
-        overflow-x: hidden;
-    }
-    .Section4-flex {
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .Section4-flex  img{
-        width: 120%;
-        
-    }
-    .Section4-flex-content{
-        overflow: hidden;
-        text-align: center;
-    }
-    .Section4-flex-content h2{
-        font-size: 20px;
-        color: #082630;
-        /* padding: 0px 0px 50px 0px; */
-         margin: 0px 0px 50px 0px;
-         width: 100%;
-         text-align: center;
-    }
-    .Section4-flex-content button{
-        background-color: #57A3BC;
-        font-family: "Inter", Sans-serif;
-        font-size: 15px;
-        font-weight: 300;
-        background-color: #57A3BC;
-        border-radius: 30px 30px 30px 30px;
-        border: none;
-        padding: 15px 30px;
-        color: white;
-    
-    }
+  }
 }
