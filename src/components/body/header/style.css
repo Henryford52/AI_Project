@@ -6,6 +6,7 @@
     max-width: 800px;
     margin: 5rem auto;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .header-content h2{
@@ -23,6 +24,16 @@
     width: 100%;
  }
  @media screen  and (max-width:820px){
+    .header{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 5rem auto;
+        text-align: center;
+        overflow-x: hidden;
+    }
     .header-content h2{
         font-size: 30px;
         color: #082630;
