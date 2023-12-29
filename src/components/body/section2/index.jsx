@@ -1,15 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import img2 from '../../../assets/walk.jpeg'
 import './style.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const Section2 = () => {
+    useEffect(() => {
+        Aos.init()
+      }, []);
     return (
         <div className='section2'>
             <div className='section2-flex'>
-                    <img src={img2} alt="" className='section2-flex-img' />
+                    <img src={img2} alt="" className='section2-flex-img' data-aos='fade-right' data-aos-easing= 'ease-out-cubic' data-aos-duration = '2000'/>
              
                 <div className='section2-content'>
                     <h2>How It Works</h2>
-                    <div className='section2-card'>
+                    <div className='section2-card' data-aos='fade-left' data-aos-easing= 'ease-out-cubic' data-aos-duration = '2000'>
                     <div className='section2-card-flex'>
                             <div className='section2-card-flex-icon'>
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-sign-out-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +30,7 @@ const Section2 = () => {
                         </div>
                     </div>
 
-                    <div className='section2-card'>
+                    <div className='section2-card' data-aos='fade-left' data-aos-easing= 'ease-out-cubic' data-aos-duration = '2000'>
                     <div className='section2-card-flex'>
                             <div className='section2-card-flex-icon'>
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-sign-out-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +46,7 @@ const Section2 = () => {
                         </div>
                     </div>
 
-                    <div className='section2-card'>
+                    <div className='section2-card' data-aos='fade-left' data-aos-easing= 'ease-out-cubic' data-aos-duration = '2000'>
                     <div className='section2-card-flex'>
                             <div className='section2-card-flex-icon'>
                                 <svg aria-hidden="true" class="e-font-icon-svg e-fas-sign-out-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
