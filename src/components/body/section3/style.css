@@ -9,7 +9,7 @@
     margin: 5rem auto;
     text-align: center;
     margin-top: 300px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .Section3 h2{
     font-size: 60px;
