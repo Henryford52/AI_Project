@@ -1,0 +1,120 @@
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 7rem auto;
+    margin-top: 200px;
+}
+
+.section2-flex{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+
+}
+.section2-content{
+    /* background-color: black; */
+}
+.section2-content h2{
+    font-size: 48px;
+    color: #082630;
+    /* padding: 0px 0px 50px 0px; */
+     margin: 0px 0px 50px 0px;
+}
+.section2-card{
+    display: block;
+    border: 1px solid #082630;
+    width: 95%;
+    /* background-color: #082630; */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.section2-card-flex-icon{
+    display: flex;
+    justify-content: center;
+    background-color: #082630;
+    width: 90px;
+    height: 60px;
+    border-radius: 100%;
+}
+.section2-card-flex-icon svg{
+    /* color: white; */
+    color: #fff;
+    fill: #fff;
+    width: 30%;
+}
+.section2-card-flex{
+    display: flex;
+    gap: 10px;
+    /* align-items: baseline; */
+}
+.section2-card-flex-content h3{
+    font-size: 22px;
+    color: #082630;
+    font-weight: 600;
+    /* margin: 0px 0px 0px 0px; */
+
+}
+.section2-card-flex-content p{
+    font-size: 18px;
+    /* width: 90%; */
+    /* display: inline-block; */
+}
+
+.section2-flex-img {
+    width: 50%;
+
+}
+@media screen  and (max-width:820px){
+    .section2-content h2{
+        font-size: 30px;
+        color: #082630;
+        text-align: center;
+        /* padding: 0px 0px 50px 0px; */
+         margin: 0px 0px 50px 0px;
+    }
+    .section2-flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        gap: 50px;
+    
+    }
+    .section2-card{
+        display: block;
+        border: 1px solid #082630;
+        width: 80%;
+        /* background-color: #082630; */
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .section2-card-flex{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        /* align-items: baseline; */
+    }
+    .section2-card-flex-icon{
+        display: flex;
+        justify-content: center;
+        background-color: #082630;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+    .section2-flex-img {
+        width: 100%;
+    
+    }
+}
