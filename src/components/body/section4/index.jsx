@@ -20,7 +20,7 @@ const Section4 = () => {
           </h2>
           <button
             className="btn"
-            data-aos="fade-up"
+            data-aos="fade-right"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
