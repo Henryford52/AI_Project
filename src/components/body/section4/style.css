@@ -54,6 +54,7 @@
     }
     .Section4-flex-content{
         overflow: hidden;
+        text-align: center;
     }
     .Section4-flex-content h2{
         font-size: 20px;
